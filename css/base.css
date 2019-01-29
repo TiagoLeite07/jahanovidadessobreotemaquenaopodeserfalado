@@ -1,0 +1,16 @@
+div {
+    width: 100%;
+    height: 100%;
+    border-image: url('../static/nuno.png') 1 repeat;
+    -webkit-border-image: url('../static/nuno.png') 1 repeat; /* Safari 3.1-5 */
+    -o-border-image: url('../static/nuno.png') 1 repeat; /* Opera 11-12.1 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 120px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
